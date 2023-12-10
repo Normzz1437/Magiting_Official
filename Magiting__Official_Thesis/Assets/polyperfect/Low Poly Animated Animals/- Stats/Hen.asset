@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38025e9300822a146ac1328021446430, type: 3}
   m_Name: Hen
   m_EditorClassIdentifier: 
-  dominance: 1
-  stamina: 10
-  power: 40
+  dominance: 0
+  stamina: 0
+  power: 0
   toughness: 100
-  agression: 99
-  attackSpeed: 1.5
+  agression: 0
+  attackSpeed: 0
   territorial: 1
   stealthy: 0
