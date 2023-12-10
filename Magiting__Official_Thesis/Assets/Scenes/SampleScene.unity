@@ -36564,8 +36564,8 @@ MonoBehaviour:
     updateMode: 0
     animationPoseRatio: 0
     reductionSetting:
-      simpleDistance: 0.036
-      shapeDistance: 0.015
+      simpleDistance: 0.048
+      shapeDistance: 0
     customSkinningSetting:
       enable: 0
       skinningBones: []
@@ -36656,7 +36656,7 @@ MonoBehaviour:
       teleportDistance: 0.5
       teleportRotation: 90
     tetherConstraint:
-      distanceCompression: 0.5
+      distanceCompression: 1
     distanceConstraint:
       stiffness:
         value: 1
