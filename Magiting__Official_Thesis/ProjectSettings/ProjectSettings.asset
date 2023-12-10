@@ -734,7 +734,7 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Standalone: INVECTOR_BASIC;INVECTOR_MELEE;INVECTOR_SHOOTER
+    Standalone: INVECTOR_BASIC;INVECTOR_MELEE;INVECTOR_SHOOTER;EMERALD_AI_PRESENT
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
