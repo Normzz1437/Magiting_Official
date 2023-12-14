@@ -1,0 +1,1 @@
+This folder contains scripts to integrate with Emerald AI's demo components.
