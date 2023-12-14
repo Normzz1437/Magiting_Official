@@ -26,7 +26,6 @@ MonoBehaviour:
   - {fileID: 11411124}
   - {fileID: 11437076}
   - {fileID: 11411708}
-  - {fileID: 6804464762108842020}
   - {fileID: 114043347838910644}
   inEdition: 0
   itemsHidden: 1
@@ -683,43 +682,6 @@ MonoBehaviour:
   disableDelayTime: 0.5
   customHandler: meleeHandler
   twoHandWeapon: 1
-  onDestroy:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &6804464762108842020
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
-  m_Name: Axe ni Magiting
-  m_EditorClassIdentifier: 
-  id: 13
-  description: Item Description
-  type: 1
-  icon: {fileID: 21300000, guid: cfea15071ee3a4543ba205f132c5da33, type: 3}
-  stackable: 1
-  maxStack: 1
-  amount: 0
-  originalObject: {fileID: 6609081609707474059, guid: fa8215d24909bbd4a9aa0482eaf12f71, type: 3}
-  dropObject: {fileID: 0}
-  attributes: []
-  isInEquipArea: 0
-  isEquiped: 0
-  destroyAfterUse: 0
-  canBeUsed: 1
-  canBeDroped: 1
-  canBeDestroyed: 1
-  EnableAnim: LowBack
-  DisableAnim: LowBack
-  enableDelayTime: 0.5
-  disableDelayTime: 0.5
-  customHandler: Axe Handler
-  twoHandWeapon: 0
   onDestroy:
     m_PersistentCalls:
       m_Calls: []

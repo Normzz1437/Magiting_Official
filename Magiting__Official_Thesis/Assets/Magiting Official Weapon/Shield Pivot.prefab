@@ -47,14 +47,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ebe2ea9c9ea0544d84d9c27f7470915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  openCloseEvents: 0
+  openCloseEvents: 1
   openCloseWindow: 0
   selectedToolbar: 0
   attackObjectName: 
   damage:
-    damageValue: 15
-    staminaBlockCost: 5
-    staminaRecoveryDelay: 1
+    damageValue: 5
+    staminaBlockCost: 0
+    staminaRecoveryDelay: 0
     ignoreDefense: 0
     activeRagdoll: 0
     senselessTime: 0
@@ -94,9 +94,9 @@ MonoBehaviour:
   staminaCost: 0
   staminaRecoveryDelay: 0
   defenseRate: 100
-  defenseRange: 90
+  defenseRange: 115.6
   defenseID: 3
-  recoilID: 2
+  recoilID: 1
   breakAttack: 0
   onDefense:
     m_PersistentCalls:

@@ -122,12 +122,6 @@ namespace Invector
 
                     _damage.damageValue = (int)damageValue;
                     colliders[i].gameObject.ApplyDamage(_damage, null);
-
-                    //Emerald AI Damage
-                    if (colliders[i].gameObject.GetComponent<EmeraldAI.EmeraldAISystem>() != null)
-                    {
-                        colliders[i].gameObject.GetComponent<EmeraldAI.EmeraldAISystem>().Damage((int)damage.damageValue, EmeraldAI.EmeraldAISystem.TargetType.Player);
-                    }
                 }
             }
             StartCoroutine(ApplyExplosionForce());

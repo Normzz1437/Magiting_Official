@@ -31,7 +31,7 @@ namespace EmeraldAI
 
             //Sends damage to another function that will then send the damage to the Invector player.
             //If you are using Invector, you can uncomment this to allow Emerald Agents to damage your Invector player.
-            //DamageInvectorPlayer(DamageAmount, Target);
+            DamageInvectorPlayer(DamageAmount, Target);
 
             //Sends damage to another function that will then send the damage to the UFPS player.
             //If you are using UFPS, you can uncomment this to allow Emerald Agents to damage your UFPS player.

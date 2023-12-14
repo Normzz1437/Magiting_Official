@@ -3987,14 +3987,17 @@ namespace EmeraldAI.Utility
                 CustomEditorProperties.CustomTagField(new Rect(), new GUIContent(), UITagProp, "UI Tag");
                 CustomHelpLabelField("The UI Tag is the Unity Tag that will trigger the AI's UI, when enabled.", true);
 
-                EditorGUI.BeginChangeCheck();
-                var layersSelectionUI = EditorGUILayout.MaskField("UI Layers", LayerMaskToField(UILayerMaskProp.intValue), InternalEditorUtility.layers);
+                //EditorGUI.BeginChangeCheck();
+                //var layersSelectionUI = EditorGUILayout.MaskField("UI Layers", LayerMaskToField(UILayerMaskProp.intValue), InternalEditorUtility.layers);
+                //CustomHelpLabelField("The UI Layers controls what layers this AI will detect to enable the their UI, if the object also has the appropriate UI Tag. This is typically used for players.", false);
+                //if (EditorGUI.EndChangeCheck())
+                //{
+                //    Undo.RecordObject(self, "Layers changed");
+                //    UILayerMaskProp.intValue = FieldToLayerMask(layersSelectionUI);
+                //}
+
+                EditorGUILayout.PropertyField(UILayerMaskProp, new GUIContent("UI Layers"));
                 CustomHelpLabelField("The UI Layers controls what layers this AI will detect to enable the their UI, if the object also has the appropriate UI Tag. This is typically used for players.", false);
-                if (EditorGUI.EndChangeCheck())
-                {
-                    Undo.RecordObject(self, "Layers changed");
-                    UILayerMaskProp.intValue = FieldToLayerMask(layersSelectionUI);
-                }
 
                 if (UILayerMaskProp.intValue == 0 || UILayerMaskProp.intValue == 1)
                 {
