@@ -178,7 +178,13 @@ namespace Invector.vMelee
             damage.damageValue *= damageMultiplier > 1 ? damageMultiplier : 1;            
             hitInfo.targetIsBlocking = !hitInfo.attackObject.ApplyDamage(hitInfo.hitBox, hitInfo.targetCollider, damage);
 
-            onDamageHit.Invoke(hitInfo);            
+            onDamageHit.Invoke(hitInfo);
+
+            //Emerald AI Damage
+            if (hitInfo.targetCollider.gameObject.GetComponent<EmeraldAI.EmeraldAISystem>())
+            {
+                hitInfo.targetCollider.gameObject.GetComponent<EmeraldAI.EmeraldAISystem>().Damage((int)hitInfo.attackObject.damage.damageValue, EmeraldAI.EmeraldAISystem.TargetType.Player, transform, 400);
+            }
         }
 
         /// <summary>

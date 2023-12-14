@@ -78,6 +78,13 @@ namespace Invector.vShooter
 
                     onCastCollider.Invoke(hitInfo);
                     damage.damageValue = maxDamage;
+
+                    //Emerald AI Damage
+                    if (hitInfo.collider.gameObject.GetComponent<EmeraldAI.EmeraldAISystem>() != null)
+                    {
+                        hitInfo.collider.gameObject.GetComponent<EmeraldAI.EmeraldAISystem>().Damage((int)damage.damageValue, EmeraldAI.EmeraldAISystem.TargetType.Player);
+                    }
+
                     if (damageByDistance)
                     {
                         var result = 0f;
