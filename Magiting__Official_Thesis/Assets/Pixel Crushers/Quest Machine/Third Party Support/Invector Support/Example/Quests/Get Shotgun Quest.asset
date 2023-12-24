@@ -41,6 +41,7 @@ MonoBehaviour:
   m_showInTrackHUD: 1
   m_isAbandonable: 0
   m_rememberIfAbandoned: 0
+  m_deleteWhenComplete: 0
   m_autostartConditionSet:
     m_conditionList: []
     m_conditionCountMode: 0
@@ -166,7 +167,10 @@ MonoBehaviour:
       m_textTableFieldID: 0
     m_stateInfoList:
     - m_actionList: []
-      m_categorizedContentList: []
+      m_categorizedContentList:
+      - m_contentList: []
+      - m_contentList: []
+      - m_contentList: []
     - m_actionList: []
       m_categorizedContentList:
       - m_contentList: []
@@ -188,7 +192,7 @@ MonoBehaviour:
     m_childIndexList: 02000000
     m_canvasRect:
       serializedVersion: 2
-      x: 200
+      x: 201.21951
       y: 88
       width: 120
       height: 48
@@ -241,8 +245,8 @@ MonoBehaviour:
     m_childIndexList: 03000000
     m_canvasRect:
       serializedVersion: 2
-      x: 199
-      y: 156
+      x: 141.68292
+      y: 171.85367
       width: 120
       height: 48
   - m_id:
@@ -287,10 +291,11 @@ MonoBehaviour:
     m_childIndexList: 
     m_canvasRect:
       serializedVersion: 2
-      x: 200
-      y: 224
+      x: 160.97562
+      y: 241.07317
       width: 120
       height: 35
+  m_textTable: {fileID: 0}
   m_goalEntityTypeName: 
   m_nextContentID: 0
 --- !u!114 &114320075199627018
@@ -305,6 +310,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5682394e55a192147a020b9edf624e51, type: 3}
   m_Name: MessageQuestCondition
   m_EditorClassIdentifier: 
+  m_alreadyTrue: 0
   m_senderSpecifier: 0
   m_senderID:
     m_text: 
@@ -363,6 +369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0538aa07f901f4c4d9dcfc2f6fa54871, type: 3}
   m_Name: InvectorHasItemsQuestCondition
   m_EditorClassIdentifier: 
+  m_alreadyTrue: 0
   m_itemID: 12
   m_valueMode: 0
   m_requiredAmount:
@@ -463,6 +470,7 @@ MonoBehaviour:
   m_useAudioSourceOn:
     m_type: 0
     m_id: 
+  m_interruptPreviousClip: 0
   m_audioNameProxy: 
 --- !u!114 &114577258292509290
 MonoBehaviour:

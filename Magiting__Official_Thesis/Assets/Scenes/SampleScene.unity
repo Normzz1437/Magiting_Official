@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 7c914675ccb328642835b6376c48838a, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 39863662c98442f4e8203701a4f11ebc, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -10134,6 +10134,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 306332584}
   m_CullTransparentMesh: 0
+--- !u!1001 &306725580
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8348933179805115999, guid: 7fc55b01729b7f34595635c81e7fdbe3, type: 3}
+      propertyPath: m_Name
+      value: LowPoly_Deer_Calf_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348933179805415999, guid: 7fc55b01729b7f34595635c81e7fdbe3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 430.8576
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348933179805415999, guid: 7fc55b01729b7f34595635c81e7fdbe3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3000057
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348933179805415999, guid: 7fc55b01729b7f34595635c81e7fdbe3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 334.9612
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348933179805415999, guid: 7fc55b01729b7f34595635c81e7fdbe3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348933179805415999, guid: 7fc55b01729b7f34595635c81e7fdbe3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348933179805415999, guid: 7fc55b01729b7f34595635c81e7fdbe3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348933179805415999, guid: 7fc55b01729b7f34595635c81e7fdbe3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348933179805415999, guid: 7fc55b01729b7f34595635c81e7fdbe3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348933179805415999, guid: 7fc55b01729b7f34595635c81e7fdbe3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348933179805415999, guid: 7fc55b01729b7f34595635c81e7fdbe3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7fc55b01729b7f34595635c81e7fdbe3, type: 3}
 --- !u!4 &311427651 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4f8ea52e97bfee441af70620e5f9a415, type: 3}
@@ -12992,6 +13049,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 427143121}
   m_CullTransparentMesh: 0
+--- !u!1001 &427625526
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1454446184431639675, guid: 1f0396587efe10f47b2dcb8a108c582d, type: 3}
+      propertyPath: m_Name
+      value: LowPoly_Deer_doe_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454446184432123931, guid: 1f0396587efe10f47b2dcb8a108c582d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 431.4906
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454446184432123931, guid: 1f0396587efe10f47b2dcb8a108c582d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3000054
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454446184432123931, guid: 1f0396587efe10f47b2dcb8a108c582d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 334.5678
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454446184432123931, guid: 1f0396587efe10f47b2dcb8a108c582d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454446184432123931, guid: 1f0396587efe10f47b2dcb8a108c582d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454446184432123931, guid: 1f0396587efe10f47b2dcb8a108c582d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454446184432123931, guid: 1f0396587efe10f47b2dcb8a108c582d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454446184432123931, guid: 1f0396587efe10f47b2dcb8a108c582d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454446184432123931, guid: 1f0396587efe10f47b2dcb8a108c582d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454446184432123931, guid: 1f0396587efe10f47b2dcb8a108c582d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1f0396587efe10f47b2dcb8a108c582d, type: 3}
 --- !u!1 &429057798
 GameObject:
   m_ObjectHideFlags: 0
@@ -41519,6 +41633,63 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: -0.00000002514571, y: 0.99999994}
+--- !u!1001 &1369586699
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2712858847543971243, guid: f29beb0059e301d4baaf4b6108fbf348, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 430.61108
+      objectReference: {fileID: 0}
+    - target: {fileID: 2712858847543971243, guid: f29beb0059e301d4baaf4b6108fbf348, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3000116
+      objectReference: {fileID: 0}
+    - target: {fileID: 2712858847543971243, guid: f29beb0059e301d4baaf4b6108fbf348, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 333.04807
+      objectReference: {fileID: 0}
+    - target: {fileID: 2712858847543971243, guid: f29beb0059e301d4baaf4b6108fbf348, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2712858847543971243, guid: f29beb0059e301d4baaf4b6108fbf348, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2712858847543971243, guid: f29beb0059e301d4baaf4b6108fbf348, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2712858847543971243, guid: f29beb0059e301d4baaf4b6108fbf348, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2712858847543971243, guid: f29beb0059e301d4baaf4b6108fbf348, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2712858847543971243, guid: f29beb0059e301d4baaf4b6108fbf348, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2712858847543971243, guid: f29beb0059e301d4baaf4b6108fbf348, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2712858847544201675, guid: f29beb0059e301d4baaf4b6108fbf348, type: 3}
+      propertyPath: m_Name
+      value: LowPoly_Deer_stag_4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f29beb0059e301d4baaf4b6108fbf348, type: 3}
 --- !u!1 &1374381413
 GameObject:
   m_ObjectHideFlags: 0
@@ -67018,10 +67189,10 @@ MonoBehaviour:
   CurrentDamageAmount: 5
   DamageAmountRun: 5
   WanderRadius: 25
-  TabNumber: 1
-  TemperamentTabNumber: 0
+  TabNumber: 6
+  TemperamentTabNumber: 6
   DetectionTagsTabNumber: 1
-  AnimationTabNumber: 2
+  AnimationTabNumber: 1
   SoundTabNumber: 0
   MovementTabNumber: 0
   WeaponTypeTabNumber: 0
@@ -71986,3 +72157,6 @@ SceneRoots:
   - {fileID: 1143581459}
   - {fileID: 705507995}
   - {fileID: 601193909}
+  - {fileID: 1369586699}
+  - {fileID: 427625526}
+  - {fileID: 306725580}
