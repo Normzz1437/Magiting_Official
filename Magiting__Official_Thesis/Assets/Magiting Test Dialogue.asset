@@ -60,7 +60,7 @@ MonoBehaviour:
   - id: 2
     fields:
     - title: Name
-      value: Quest Giver Dumakulem
+      value: Dumakulem
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -640,16 +640,16 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 'GiveQuest("Quest Giver Dumakulem", "getAxe");
+      userScript: 'GiveQuest("Dumakulem", "getAxe");
 
-        ShowAlert("New
-        Quest: Get Axe")'
+        ShowAlert("New Quest:
+        Get Axe")'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 52.000137
+        x: 50.684357
         y: 232.85712
         width: 160
         height: 30
@@ -852,8 +852,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 28.901154, y: 61.842133}
-    canvasZoom: 0.7600002
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.82000023
   - id: 2
     fields:
     - title: Title
