@@ -135,6 +135,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Input Device Manager
       objectReference: {fileID: 0}
+    - target: {fileID: 172888, guid: 0370cdfcc687d2841ae14ead80d44071, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11495234, guid: 0370cdfcc687d2841ae14ead80d44071, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 11495234, guid: 0370cdfcc687d2841ae14ead80d44071, type: 3}
       propertyPath: controlCursorState
       value: 0
@@ -268,7 +276,7 @@ MonoBehaviour:
     m_textTable: {fileID: 0}
     m_textTableFieldID: 0
   m_displayName:
-    m_text: Magiting
+    m_text: Player
     m_stringAsset: {fileID: 0}
     m_textTable: {fileID: 0}
     m_textTableFieldID: 0
@@ -1060,6 +1068,132 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &931959652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 931959655}
+  - component: {fileID: 931959654}
+  - component: {fileID: 931959653}
+  m_Layer: 0
+  m_Name: Save System
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &931959653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931959652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2136731e071bee419f51aed2a417dfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuInputButton: Cancel
+  guiSkin: {fileID: 0}
+  buttonSize: {x: 200, y: 30}
+  saveSlot: 1
+  instructions: Press Escape for menu.
+  instructionsDuration: 5
+  pauseWhileOpen: 0
+  allowCursorWhileOpen: 0
+  onShow:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 931959654}
+        m_TargetAssemblyTypeName: PixelCrushers.QuestMachine.QuestControl, Assembly-CSharp-firstpass
+        m_MethodName: SendToMessageSystem
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Pause Player
+          m_BoolArgument: 0
+        m_CallState: 2
+  onHide:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 931959654}
+        m_TargetAssemblyTypeName: PixelCrushers.QuestMachine.QuestControl, Assembly-CSharp-firstpass
+        m_MethodName: SendToMessageSystem
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Unpause Player
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &931959654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931959652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d18230d3a29b2a418e94d126c53f276, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_questID:
+    m_text: 
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_questNodeID:
+    m_text: 
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_counterName:
+    m_text: 
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_conditionalEvent:
+    questID:
+      m_text: 
+      m_stringAsset: {fileID: 0}
+      m_textTable: {fileID: 0}
+      m_textTableFieldID: 0
+    requiredQuestState: 0
+    questNodeID:
+      m_text: 
+      m_stringAsset: {fileID: 0}
+      m_textTable: {fileID: 0}
+      m_textTableFieldID: 0
+    requiredQuestNodeState: 0
+    onConditionMet:
+      m_PersistentCalls:
+        m_Calls: []
+--- !u!4 &931959655
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931959652}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 595.6279, y: -23.61178, z: 254.19382}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1392071295
 GameObject:
   m_ObjectHideFlags: 0
@@ -1182,6 +1316,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 288851825238109408, guid: 8c1c57200f94e624dadd9f04b172b8bc, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -14.999985
+      objectReference: {fileID: 0}
     - target: {fileID: 950067374201510865, guid: 8c1c57200f94e624dadd9f04b172b8bc, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
@@ -1201,6 +1339,10 @@ PrefabInstance:
     - target: {fileID: 2688362345357826781, guid: 8c1c57200f94e624dadd9f04b172b8bc, type: 3}
       propertyPath: m_Name
       value: vShooterController_magiting kalinga no tail
+      objectReference: {fileID: 0}
+    - target: {fileID: 4586701467636007142, guid: 8c1c57200f94e624dadd9f04b172b8bc, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -14.999985
       objectReference: {fileID: 0}
     - target: {fileID: 4665517247467283523, guid: 8c1c57200f94e624dadd9f04b172b8bc, type: 3}
       propertyPath: m_key
@@ -1254,6 +1396,10 @@ PrefabInstance:
       propertyPath: m_key
       value: Sceme2Position
       objectReference: {fileID: 0}
+    - target: {fileID: 8554192389795600645, guid: 8c1c57200f94e624dadd9f04b172b8bc, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -14.999985
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1269,3 +1415,4 @@ SceneRoots:
   - {fileID: 544623189}
   - {fileID: 161771265}
   - {fileID: 534285116}
+  - {fileID: 931959655}

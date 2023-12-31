@@ -1,5 +1,43 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2069507154050182862
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
+  m_Name: Laruang Kalasag
+  m_EditorClassIdentifier: 
+  id: 14
+  description: Kalasag na gawa sa kahoy, ginagamit upang sanayin ang isang miyembro
+    ng tribo.
+  type: 6
+  icon: {fileID: 21300000, guid: cbe2728c62612cf419cf95a3b59dd841, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 2705390001474768939, guid: f3578d24d3d98024aa30a36990620aa6, type: 3}
+  dropObject: {fileID: 0}
+  attributes: []
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 0
+  canBeUsed: 0
+  canBeDroped: 1
+  canBeDestroyed: 1
+  EnableAnim: LowBack
+  DisableAnim: LowBack
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: Toy_Shield_Handler
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26,6 +64,8 @@ MonoBehaviour:
   - {fileID: 11411124}
   - {fileID: 11437076}
   - {fileID: 11411708}
+  - {fileID: 6865877795975565538}
+  - {fileID: -2069507154050182862}
   - {fileID: 114043347838910644}
   inEdition: 0
   itemsHidden: 1
@@ -682,6 +722,43 @@ MonoBehaviour:
   disableDelayTime: 0.5
   customHandler: meleeHandler
   twoHandWeapon: 1
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &6865877795975565538
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
+  m_Name: Toy Axe
+  m_EditorClassIdentifier: 
+  id: 13
+  description: Laruang_Palakol
+  type: 1
+  icon: {fileID: 21300000, guid: 567e0de7c5a912a47ad08e8945d79fce, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 9074142267222966954, guid: b158dc0a13625654ab18cd06ec1eca1e, type: 3}
+  dropObject: {fileID: 0}
+  attributes: []
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 0
+  canBeUsed: 0
+  canBeDroped: 1
+  canBeDestroyed: 1
+  EnableAnim: LowBack
+  DisableAnim: LowBack
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: Toy_Axe_Handler
+  twoHandWeapon: 0
   onDestroy:
     m_PersistentCalls:
       m_Calls: []
