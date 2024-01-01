@@ -4095,6 +4095,10 @@ PrefabInstance:
       value: KYLE_FOREST
       objectReference: {fileID: 0}
     - target: {fileID: 8495620879132701793, guid: d5bca4a9c2e86d1469177c6622d17066, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8495620879132701793, guid: d5bca4a9c2e86d1469177c6622d17066, type: 3}
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
@@ -10880,10 +10884,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7038659641498308833, guid: 8c1c57200f94e624dadd9f04b172b8bc, type: 3}
       propertyPath: _currentHealth
-      value: 300
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7038659641498308833, guid: 8c1c57200f94e624dadd9f04b172b8bc, type: 3}
+      propertyPath: healthRecovery
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7038659641498308833, guid: 8c1c57200f94e624dadd9f04b172b8bc, type: 3}
       propertyPath: selectedToolbar
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7038659641498308833, guid: 8c1c57200f94e624dadd9f04b172b8bc, type: 3}
+      propertyPath: healthRecoveryDelay
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7218866114358979739, guid: 8c1c57200f94e624dadd9f04b172b8bc, type: 3}
@@ -10929,6 +10941,26 @@ PrefabInstance:
     - target: {fileID: 7679492144096886967, guid: 8c1c57200f94e624dadd9f04b172b8bc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7900549715721287243, guid: 8c1c57200f94e624dadd9f04b172b8bc, type: 3}
+      propertyPath: startItems.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7900549715721287243, guid: 8c1c57200f94e624dadd9f04b172b8bc, type: 3}
+      propertyPath: startItems.Array.data[0].id
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7900549715721287243, guid: 8c1c57200f94e624dadd9f04b172b8bc, type: 3}
+      propertyPath: startItems.Array.data[1].id
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7900549715721287243, guid: 8c1c57200f94e624dadd9f04b172b8bc, type: 3}
+      propertyPath: startItems.Array.data[0].amount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7900549715721287243, guid: 8c1c57200f94e624dadd9f04b172b8bc, type: 3}
+      propertyPath: startItems.Array.data[1].amount
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8285783563213118089, guid: 8c1c57200f94e624dadd9f04b172b8bc, type: 3}
       propertyPath: hitProperties.hitDamageTags.Array.size
@@ -18228,7 +18260,7 @@ MonoBehaviour:
   RotateTowardsTarget: 0
   m_AttackAnimationClipMissing: 0
   ProjectileCollisionPointY: 1.87
-  m_ProjectileCollisionPoint: {x: 404.38577, y: 4.28, z: 415.9557}
+  m_ProjectileCollisionPoint: {x: 404.38577, y: 4.2799997, z: 432.22}
   ObstructionTimer: 0
   ObstructionSeconds: 4
   IdleVolume: 1
@@ -18598,8 +18630,8 @@ MonoBehaviour:
   DamageAmountRun: 5
   WanderRadius: 25
   TabNumber: 2
-  TemperamentTabNumber: 2
-  DetectionTagsTabNumber: 1
+  TemperamentTabNumber: 6
+  DetectionTagsTabNumber: 0
   AnimationTabNumber: 2
   SoundTabNumber: 0
   MovementTabNumber: 1
@@ -18610,7 +18642,7 @@ MonoBehaviour:
   RunAttackAnimationNumber: 1
   IdleAnimationNumber: 1
   CombatTabNumber: 0
-  FactionsAndTagTabNumber: 1
+  FactionsAndTagTabNumber: 0
   EventTabNumber: 0
   MinimumWaitTime: 3
   MaximumWaitTime: 6
@@ -18626,12 +18658,12 @@ MonoBehaviour:
   CritChance: 15
   CritMultiplier: 2
   WalkBackwardsSpeed: 0.783
-  WalkSpeed: 0.98
-  RunSpeed: 3.47
+  WalkSpeed: 0.78
+  RunSpeed: 2.68
   ExpandedFieldOfViewAngle: 300
   fieldOfViewAngle: 180
   fieldOfViewAngleRef: 0
-  MaxChaseDistance: 30
+  MaxChaseDistance: 23
   AngleNeededToTurn: 10
   AngleNeededToTurnRunning: 30
   TooCloseDistance: 1
@@ -18651,7 +18683,7 @@ MonoBehaviour:
   AIName: TA-AWI
   AITitle: BOSS OF THE CAVE
   StoppingDistance: 4.2
-  FollowingStoppingDistance: 4.98
+  FollowingStoppingDistance: 2.5
   DistanceOffset: 1
   DistanceFromTarget: 0
   AgentRadius: 0.5
