@@ -245,7 +245,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Magiting, anak ko, kamusta ka
+        value: Magiting?! Are you here boy
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -261,7 +261,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: Timeline(play,1 Camera_timeline)
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 1
@@ -285,8 +285,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 199
-        y: 127
+        x: 136.36264
+        y: 116.01099
         width: 160
         height: 30
     - id: 2
@@ -316,7 +316,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Pagod na ako, inamo ka!
+        value: Gotcha, Master!
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -350,13 +350,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 201
-        y: 239
+        x: 124.07692
+        y: 218.12088
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 56, y: 14}
-    canvasZoom: 1
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.9100001
   syncInfo:
     syncActors: 0
     syncItems: 0

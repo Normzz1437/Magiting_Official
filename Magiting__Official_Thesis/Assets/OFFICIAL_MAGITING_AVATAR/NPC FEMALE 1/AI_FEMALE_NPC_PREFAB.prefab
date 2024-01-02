@@ -660,7 +660,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openCloseEvents: 0
-  openCloseWindow: 0
+  openCloseWindow: 1
   selectedToolbar: 0
   _fsmBehaviour: {fileID: 11400000, guid: e1526f9f3843ef74e86c2df008aaa78a, type: 2}
   _stop: 0
