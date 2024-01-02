@@ -1,26 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6179406062656794799
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0538aa07f901f4c4d9dcfc2f6fa54871, type: 3}
-  m_Name: InvectorHasItemsQuestCondition
-  m_EditorClassIdentifier: 
-  m_alreadyTrue: 0
-  m_itemID: 13
-  m_valueMode: 0
-  m_requiredAmount:
-    m_valueType: 0
-    m_literalValue: 1
-    m_counterIndex: 0
-  m_counterIndex: 0
---- !u!114 &-3963795107461015649
+--- !u!114 &-8539956893068289174
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -34,12 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_contentID: -1
   m_bodyText:
-    m_text: I should follow Dumakulem, get the axe on the table and return to Dumakulem
-      once picked.
+    m_text: 'Left Click - Attack
+
+      Right Click - Use Shield
+
+
+      Try hitting
+      the Scarecrow in the wheat
+
+      field then report back to me.'
     m_stringAsset: {fileID: 0}
     m_textTable: {fileID: 0}
     m_textTableFieldID: 0
---- !u!114 &-2272465491038717743
+--- !u!114 &-8349165114510607903
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -53,20 +40,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_contentID: -1
   m_bodyText:
-    m_text: 'W-Forward
-
-      A-Left
-
-      D-Right
-
-      S-Backward
-
-      Get
-      the items in the house'
+    m_text: Go to the training Dummy and Hit it 5 times
     m_stringAsset: {fileID: 0}
     m_textTable: {fileID: 0}
     m_textTableFieldID: 0
---- !u!114 &-812330995383276650
+--- !u!114 &-6801103305578721321
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -75,17 +53,92 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0538aa07f901f4c4d9dcfc2f6fa54871, type: 3}
-  m_Name: InvectorHasItemsQuestCondition
+  m_Script: {fileID: 11500000, guid: f0ed0c4e68ee98946bb5016adda42373, type: 3}
+  m_Name: BodyTextQuestContent
+  m_EditorClassIdentifier: 
+  m_contentID: -1
+  m_bodyText:
+    m_text: 'Left Click-Attack
+
+      Right Click- Use Shield to block
+
+      Press
+      I - to Open Inventory'
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+--- !u!114 &-5664866063083111697
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5682394e55a192147a020b9edf624e51, type: 3}
+  m_Name: MessageQuestCondition
   m_EditorClassIdentifier: 
   m_alreadyTrue: 0
-  m_itemID: 14
-  m_valueMode: 0
-  m_requiredAmount:
+  m_senderSpecifier: 0
+  m_senderID:
+    m_text: 
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_targetSpecifier: 0
+  m_targetID:
+    m_text: 
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_message:
+    m_text: Discussed Quest
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_parameter:
+    m_text: hitDummy
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
+  m_value:
     m_valueType: 0
-    m_literalValue: 1
-    m_counterIndex: 0
-  m_counterIndex: 0
+    m_intValue: 0
+    m_stringValue: 
+--- !u!114 &-4076885260750300217
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b99cc2a156c22e46b4fb74b06a4d1e8, type: 3}
+  m_Name: AlertQuestAction
+  m_EditorClassIdentifier: 
+  m_contentList:
+  - {fileID: -3957753689557692856}
+  m_contentListSerializationProxy: []
+--- !u!114 &-3957753689557692856
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0ed0c4e68ee98946bb5016adda42373, type: 3}
+  m_Name: BodyTextQuestContent
+  m_EditorClassIdentifier: 
+  m_contentID: -1
+  m_bodyText:
+    m_text: Return to Dumakulem once you have explored your weapon
+    m_stringAsset: {fileID: 0}
+    m_textTable: {fileID: 0}
+    m_textTableFieldID: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96,18 +149,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 641a501636ec3644993211c008d9a8a4, type: 3}
-  m_Name: Get Axe Quest
+  m_Name: Hit Dummy 5 times
   m_EditorClassIdentifier: 
   m_isInstance: 0
   m_originalAsset: {fileID: 0}
   m_fileVersion: 1
   m_id:
-    m_text: getAxe
+    m_text: hitDummy
     m_stringAsset: {fileID: 0}
     m_textTable: {fileID: 0}
     m_textTableFieldID: 0
   m_title:
-    m_text: Get Axe Quest
+    m_text: Hit Dummy 5 times
     m_stringAsset: {fileID: 0}
     m_textTable: {fileID: 0}
     m_textTableFieldID: 0
@@ -157,7 +210,9 @@ MonoBehaviour:
     m_categorizedContentList:
     - m_contentList: []
     - m_contentList: []
-    - m_contentList: []
+    - m_contentList:
+      - {fileID: -6801103305578721321}
+      - {fileID: -8349165114510607903}
   - m_actionList: []
     m_categorizedContentList:
     - m_contentList: []
@@ -181,7 +236,7 @@ MonoBehaviour:
   m_counterList: []
   m_nodeList:
   - m_id:
-      m_text: Quest-15484.start
+      m_text: Quest-750838.start
       m_stringAsset: {fileID: 0}
       m_textTable: {fileID: 0}
       m_textTableFieldID: 0
@@ -222,67 +277,17 @@ MonoBehaviour:
     m_childIndexList: 01000000
     m_canvasRect:
       serializedVersion: 2
-      x: 179
-      y: 30
+      x: 200
+      y: 20
       width: 120
       height: 48
   - m_id:
-      m_text: getAxe
+      m_text: Find Dummy
       m_stringAsset: {fileID: 0}
       m_textTable: {fileID: 0}
       m_textTableFieldID: 0
     m_internalName:
-      m_text: Get Axe
-      m_stringAsset: {fileID: 0}
-      m_textTable: {fileID: 0}
-      m_textTableFieldID: 0
-    m_nodeType: 4
-    m_isOptional: 0
-    m_state: 0
-    m_speaker:
       m_text: 
-      m_stringAsset: {fileID: 0}
-      m_textTable: {fileID: 0}
-      m_textTableFieldID: 0
-    m_stateInfoList:
-    - m_actionList: []
-      m_categorizedContentList:
-      - m_contentList: []
-      - m_contentList: []
-      - m_contentList: []
-    - m_actionList: []
-      m_categorizedContentList:
-      - m_contentList: []
-      - m_contentList:
-        - {fileID: -3963795107461015649}
-      - m_contentList:
-        - {fileID: -2272465491038717743}
-    - m_actionList: []
-      m_categorizedContentList:
-      - m_contentList: []
-      - m_contentList: []
-      - m_contentList: []
-    m_conditionSet:
-      m_conditionList:
-      - {fileID: -812330995383276650}
-      - {fileID: -6179406062656794799}
-      m_conditionCountMode: 1
-      m_minConditionCount: 0
-      m_numTrueConditions: 0
-    m_childIndexList: 02000000
-    m_canvasRect:
-      serializedVersion: 2
-      x: 180.03093
-      y: 99.03093
-      width: 120
-      height: 48
-  - m_id:
-      m_text: Return
-      m_stringAsset: {fileID: 0}
-      m_textTable: {fileID: 0}
-      m_textTableFieldID: 0
-    m_internalName:
-      m_text: Return to Dumakulem
       m_stringAsset: {fileID: 0}
       m_textTable: {fileID: 0}
       m_textTableFieldID: 0
@@ -304,23 +309,21 @@ MonoBehaviour:
       m_categorizedContentList:
       - m_contentList: []
       - m_contentList: []
-      - m_contentList: []
+      - m_contentList:
+        - {fileID: -8539956893068289174}
     - m_actionList: []
-      m_categorizedContentList:
-      - m_contentList: []
-      - m_contentList: []
-      - m_contentList: []
+      m_categorizedContentList: []
     m_conditionSet:
       m_conditionList:
-      - {fileID: 1791208983949440689}
+      - {fileID: 266172740435291722}
       m_conditionCountMode: 1
       m_minConditionCount: 0
       m_numTrueConditions: 0
     m_childIndexList: 03000000
     m_canvasRect:
       serializedVersion: 2
-      x: 179
-      y: 196.08371
+      x: 157.9011
+      y: 106
       width: 120
       height: 48
   - m_id:
@@ -365,14 +368,62 @@ MonoBehaviour:
     m_childIndexList: 
     m_canvasRect:
       serializedVersion: 2
-      x: 179
-      y: 262.94736
+      x: 145.63416
+      y: 289.36584
       width: 120
       height: 35
+  - m_id:
+      m_text: Return
+      m_stringAsset: {fileID: 0}
+      m_textTable: {fileID: 0}
+      m_textTableFieldID: 0
+    m_internalName:
+      m_text: 
+      m_stringAsset: {fileID: 0}
+      m_textTable: {fileID: 0}
+      m_textTableFieldID: 0
+    m_nodeType: 4
+    m_isOptional: 0
+    m_state: 0
+    m_speaker:
+      m_text: 
+      m_stringAsset: {fileID: 0}
+      m_textTable: {fileID: 0}
+      m_textTableFieldID: 0
+    m_stateInfoList:
+    - m_actionList: []
+      m_categorizedContentList:
+      - m_contentList: []
+      - m_contentList: []
+      - m_contentList: []
+    - m_actionList:
+      - {fileID: -4076885260750300217}
+      m_categorizedContentList:
+      - m_contentList: []
+      - m_contentList: []
+      - m_contentList: []
+    - m_actionList: []
+      m_categorizedContentList:
+      - m_contentList: []
+      - m_contentList: []
+      - m_contentList: []
+    m_conditionSet:
+      m_conditionList:
+      - {fileID: -5664866063083111697}
+      m_conditionCountMode: 1
+      m_minConditionCount: 0
+      m_numTrueConditions: 0
+    m_childIndexList: 02000000
+    m_canvasRect:
+      serializedVersion: 2
+      x: 145.78638
+      y: 199.00671
+      width: 120
+      height: 48
   m_textTable: {fileID: 0}
   m_goalEntityTypeName: 
   m_nextContentID: 0
---- !u!114 &1791208983949440689
+--- !u!114 &266172740435291722
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -398,12 +449,12 @@ MonoBehaviour:
     m_textTable: {fileID: 0}
     m_textTableFieldID: 0
   m_message:
-    m_text: Discuss Quest
+    m_text: FoundDummy
     m_stringAsset: {fileID: 0}
     m_textTable: {fileID: 0}
     m_textTableFieldID: 0
   m_parameter:
-    m_text: getAxe
+    m_text: FoundDummy
     m_stringAsset: {fileID: 0}
     m_textTable: {fileID: 0}
     m_textTableFieldID: 0
