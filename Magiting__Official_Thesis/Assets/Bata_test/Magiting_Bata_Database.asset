@@ -2686,7 +2686,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: Timeline(play,Magiting Hide in house cutscene)
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 1
@@ -2709,8 +2709,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 697.04346, y: 88.480896}
-    canvasZoom: 0.7300003
+    canvasScrollPosition: {x: 951.7318, y: 1155.447}
+    canvasZoom: 1.18
   - id: 2
     fields:
     - title: Title

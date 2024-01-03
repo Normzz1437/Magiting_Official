@@ -8,6 +8,6 @@ public class NextScene : MonoBehaviour
      void OnEnable()
     {
         //Only specifying the sceneName or sceneBuildIndex will load
-        SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
+        SceneManager.LoadScene("Bata_test", LoadSceneMode.Single);
     }
 }
