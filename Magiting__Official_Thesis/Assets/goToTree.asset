@@ -322,7 +322,7 @@ MonoBehaviour:
     m_canvasRect:
       serializedVersion: 2
       x: 63
-      y: 149
+      y: 150
       width: 120
       height: 35
   m_textTable: {fileID: 0}
