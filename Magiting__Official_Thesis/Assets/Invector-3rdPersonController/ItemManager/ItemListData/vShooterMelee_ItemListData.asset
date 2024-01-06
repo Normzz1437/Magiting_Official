@@ -10,10 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
-  m_Name: Magiting Shield
+  m_Name: Kalasag
   m_EditorClassIdentifier: 
   id: 26
-  description: Item Description
+  description: 'A wooden shield, large and rectangular. The hardwood shield has a
+    complex rattan binding on the front and is adorned with fine carvings.  Rattan
+    wood makes up the basis, which is reinforced with a resin covering that dries
+    to a rock-hard consistency. It was extensively employed in combat across the
+    Philippines. There are offensive uses for the shield as well. '
   type: 6
   icon: {fileID: 21300000, guid: c32559fbd26958840b586040df3a1707, type: 3}
   stackable: 1
@@ -1258,10 +1262,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
-  m_Name: Magiting Axe
+  m_Name: Sinawit
   m_EditorClassIdentifier: 
   id: 27
-  description: Item Description
+  description: 'A battle axe used by the Igorot tribes in the mountainous province
+    of the Luzon island''s Central Cordillera. This axe is a tool and a weapon used
+    by the Kalinga. Suitable for headhunting training.
+
+'
   type: 1
   icon: {fileID: 21300000, guid: cfea15071ee3a4543ba205f132c5da33, type: 3}
   stackable: 1

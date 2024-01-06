@@ -67,7 +67,7 @@ MonoBehaviour:
   - {fileID: 6865877795975565538}
   - {fileID: -2069507154050182862}
   - {fileID: 114043347838910644}
-  inEdition: 0
+  inEdition: 1
   itemsHidden: 1
 --- !u!114 &11411124
 MonoBehaviour:
@@ -735,10 +735,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
-  m_Name: Toy Axe
+  m_Name: Laruang_Palakol
   m_EditorClassIdentifier: 
   id: 13
-  description: Laruang_Palakol
+  description: Bigay ni Dumakulem upang turuan ang bata sa pagsasanay sa pag gamit
+    ng sinawit.
   type: 1
   icon: {fileID: 21300000, guid: 567e0de7c5a912a47ad08e8945d79fce, type: 3}
   stackable: 0
