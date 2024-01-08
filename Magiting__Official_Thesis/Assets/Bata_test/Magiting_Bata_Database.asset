@@ -4679,7 +4679,12 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: Timeline(play,Magiting go back to village cutscene)
+        value: 'SetDialougePanel(false);
+
+          Timeline(play,Magiting go back
+          to village cutscene);
+
+          SetDialougePanel(true)@Message(done)'
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 5
@@ -4702,8 +4707,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0.9526539, y: 0}
-    canvasZoom: 1.5099994
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 1.3899995
   - id: 6
     fields:
     - title: Title
@@ -4889,8 +4894,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 76
-        y: 115
+        x: 123.572815
+        y: 139.27185
         width: 160
         height: 30
     entryGroups: []
@@ -5044,7 +5049,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Oh No i master is caught
+        value: Oh No  master is caught
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -5078,13 +5083,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 35
-        y: 148
+        x: 34.08258
+        y: 147.08257
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 19.24042, y: 15.514724}
-    canvasZoom: 1.1199999
+    canvasScrollPosition: {x: 17.687338, y: 9.474437}
+    canvasZoom: 1.0899999
   syncInfo:
     syncActors: 0
     syncItems: 0
