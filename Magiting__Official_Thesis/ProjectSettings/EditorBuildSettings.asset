@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Bata_test.unity
     guid: 0d727e2279a8bac4c9e56be3d0bb2da8
   - enabled: 1
+    path: Assets/Magiting go to adventure transition cutscene.unity
+    guid: 3629c5250004bfc4aa222c2b00c37d97
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}

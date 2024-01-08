@@ -8,7 +8,7 @@ public class LoadNextScene : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
+        SceneManager.LoadScene("Magiting go to adventure transition cutscene", LoadSceneMode.Single);
     }
 
   
