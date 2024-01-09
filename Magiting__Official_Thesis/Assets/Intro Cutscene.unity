@@ -343,6 +343,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 452c4f317fb3c7e4e9ea98d5158ac0af, type: 2}
     - {fileID: 11400000, guid: a0e2ed95f3fd82140a20fb960a8d95cf, type: 2}
     - {fileID: 11400000, guid: d46437286cd18a947a2854a2a417b1d7, type: 2}
+    - {fileID: 11400000, guid: 8dc9b7b0bbab61a49b420fc7d7945006, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
@@ -377,6 +378,32 @@ MonoBehaviour:
         - m_Target: {fileID: 774433872}
           m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
           m_MethodName: Play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1107607048}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: Stop
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1454103091}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: Stop
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -791,7 +818,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 5c2d68be39279f149b32ee2488e7be2b, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 44720e093bbf83743a273ebfa5a6228a, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1971,6 +1998,8 @@ PlayableDirector:
     value: {fileID: 191308103}
   - key: {fileID: 2167172653893656772, guid: c9db738103dfc7943a4d322622bc27f5, type: 2}
     value: {fileID: 774433871}
+  - key: {fileID: -6142879260772818800, guid: c9db738103dfc7943a4d322622bc27f5, type: 2}
+    value: {fileID: 191308103}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &1970880924

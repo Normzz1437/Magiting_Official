@@ -82,7 +82,7 @@ MonoBehaviour:
   - {fileID: 1942869621032062961}
   - {fileID: -3081373487510152791}
   - {fileID: 7388420119826336597}
-  inEdition: 0
+  inEdition: 1
   itemsHidden: 1
 --- !u!114 &11427962
 MonoBehaviour:
@@ -1279,7 +1279,7 @@ MonoBehaviour:
   dropObject: {fileID: 0}
   attributes:
   - name: 2
-    value: 1000
+    value: 30
     isOpen: 0
     isBool: 0
   isInEquipArea: 0
